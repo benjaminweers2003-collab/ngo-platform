@@ -1,0 +1,27 @@
+{
+  "name": "ngo-platform",
+  "version": "1.0.0",
+  "description": "NGO Platform for student sponsorship",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminweers2003-collab/ngo-platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjaminweers2003-collab/ngo-platform/issues"
+  },
+  "homepage": "https://github.com/benjaminweers2003-collab/ngo-platform#readme",
+  "dependencies": {
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  }
+}

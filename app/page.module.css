@@ -1,0 +1,153 @@
+.main {
+  min-height: 100vh;
+  background: #f4f7fb;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logoPlaceholder {
+  width: 220px;
+  height: 100px;
+  max-width: 100%;
+  margin: 0 auto 15px;
+  background: #e8f0fe;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #174ea6;
+}
+
+.header h1 {
+  color: #174ea6;
+  margin: 15px 0 10px 0;
+  font-size: 28px;
+}
+
+.header p {
+  margin: 0 0 15px 0;
+  color: #666;
+}
+
+.badge {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #174ea6;
+  padding: 8px 14px;
+  border-radius: 30px;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.section {
+  margin-bottom: 24px;
+}
+
+.section h2 {
+  color: #174ea6;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.section p {
+  line-height: 1.6;
+  color: #333;
+}
+
+.infoGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.card {
+  background: #f8f9fc;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+.card strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.card span {
+  display: block;
+  color: #555;
+  font-size: 14px;
+}
+
+.supportList {
+  padding-left: 20px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.buttonContainer {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.button {
+  display: inline-block;
+  background: #174ea6;
+  color: white;
+  padding: 12px 18px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #1240a0;
+}
+
+.footer {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.6;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .infoGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+}
