@@ -1,6 +1,7 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
+import Image from 'next/image';
 import styles from './page.module.css';
 
 interface StudentData {
@@ -38,7 +39,14 @@ export default function Home() {
       <div className={styles.container}>
         {/* HEADER */}
         <div className={styles.header}>
-          <div className={styles.logoPlaceholder}>DLF</div>
+          <Image
+            src="/logo.png"
+            alt="Deep Light Fountain Logo"
+            width={120}
+            height={120}
+            priority
+            className={styles.logo}
+          />
           <h1>Deep Light Fountain</h1>
           <p>Student Sponsorship Profile</p>
           <div className={styles.badge}>Student ID: {student.id}</div>
